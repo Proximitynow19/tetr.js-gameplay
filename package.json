@@ -1,0 +1,21 @@
+{
+  "name": "tetr.js-gameplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tetr.js": "^0.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "typedoc": "^0.20.35",
+    "typedoc-plugin-extras": "^1.1.7",
+    "typescript": "^4.2.4"
+  }
+}
