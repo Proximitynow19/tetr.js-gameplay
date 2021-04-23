@@ -1,5 +1,5 @@
 {
-  "name": "tetr.js-gameplay",
+  "name": "@tetr.js/gameplay",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,13 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "tetr.js": "^0.3.1"
-  },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "typedoc": "^0.20.35",
     "typedoc-plugin-extras": "^1.1.7",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "tetr.js": "^0.3.4"
   }
 }
