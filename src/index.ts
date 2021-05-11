@@ -1,5 +1,8 @@
 import { Targets, KeyEvent, InGameEvent } from "./frameTypes";
 
+import EventEmitter from "events";
+import { Client } from "tetr.js";
+
 export declare interface FramesClient {
   frame: number;
   type: "start" | "targets" | "keydown" | "keyup";
@@ -28,4 +31,12 @@ export declare interface RecieveReplay {
   };
 }
 
-export default class Gameplay {}
+export declare interface GameplayClient {}
+
+export class GameplayClient extends EventEmitter {
+  public constructor(private client: Client) {
+    super();
+  }
+}
+
+export class Game {}
